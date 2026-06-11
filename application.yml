@@ -11,11 +11,12 @@ plugins:
     clients:
       - TVHTML5EMBEDDED
       - MUSIC
-      - TV_EMBEDDED
+      - ANDROID_TESTSUITE
+      - WEB
 
 lavalink:
   plugins:
-    - dependency: "dev.lavalink.youtube:youtube-plugin:1.13.3"
+    - dependency: "dev.lavalink.youtube:youtube-plugin:1.18.1"
       snapshot: false
   server:
     password: "${LAVALINK_PASSWORD:youshallnotpass}"
