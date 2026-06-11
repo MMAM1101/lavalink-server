@@ -9,11 +9,9 @@ plugins:
     allowDirectVideoIds: true
     allowDirectPlaylistIds: true
     clients:
-      - MUSIC
-      - ANDROID_TESTSUITE
-      - TV_EMBEDDED
       - TVHTML5EMBEDDED
-      - WEB
+      - MUSIC
+      - TV_EMBEDDED
 
 lavalink:
   plugins:
